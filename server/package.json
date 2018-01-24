@@ -1,0 +1,22 @@
+{
+  "name":"myapp-node",
+  "version": "1.0.0",
+  "main":"build.js",
+  "scripts": {
+    "start": "node ./dist/build.js",
+    "dev": "supervisor ./dist/build.js"
+  },
+  "dependencies":{
+     "koa": "^2.3.0",
+     "babel-polyfill": "^6.26.0",
+     "ejs": "^2.5.7",
+     "koa-views": "^6.0.2",
+     "koa-router": "^7.2.1",
+     "koa-route": "^3.2.0",
+     "koa-static": "^4.0.1",
+     "axios": "^0.16.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
